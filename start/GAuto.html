@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAuto介绍 - GAuto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-image: url('/images/bg2-1.webp');
+      background-size: cover;
+      background-position: 80% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+    .page-header {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .back-btn {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      background: #2980b9;
+      transform: translateY(-2px);
+    }
+    .page-title {
+      color: #2c3e50;
+      margin: 0;
+      font-size: 2rem;
+    }
+    .markdown-content {
+      background: rgba(255, 255, 255, 0.51);
+      backdrop-filter: blur(10px);
+      padding: 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+      color: #2c3e50;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .markdown-content h1 {
+      font-size: 2.5rem;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+    .markdown-content h2 {
+      font-size: 2rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+    .markdown-content p {
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    .markdown-content ul, .markdown-content ol {
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+    }
+    .markdown-content li {
+      margin-bottom: 0.5rem;
+    }
+    .markdown-content blockquote {
+      border-left: 4px solid #3498db;
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      background: #f8f9fa;
+      color: #555;
+    }
+    .markdown-content code {
+      background: #f1f2f6;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+    }
+    .markdown-content pre {
+      background: #2d3748;
+      color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    .markdown-content pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+    .markdown-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    .markdown-content th, .markdown-content td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    .markdown-content th {
+      background: #f8f9fa;
+      font-weight: 600;
+    }
+    .markdown-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    .markdown-content a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    .markdown-content a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      body { padding: 1rem; }
+      .page-header { flex-direction: column; align-items: flex-start; }
+      .page-title { font-size: 1.5rem; }
+      .markdown-content { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <a href="/" class="back-btn">← 返回主页</a>
+    <h1 class="page-title">GAuto介绍</h1>
+  </div>
+  <div class="markdown-content">
+    <p>不同于目前市面上的所有脚本,本团队软件原生采用开发:<a href="https://www.doubao.com/thread/w1c6bbf1b5de5832e">什么是原生脚本?</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>维度</strong></th>
+<th style="text-align:center">⚠️<strong>按键</strong>/自动精灵</th>
+<th style="text-align:center">⚠️<strong>Auto.js</strong></th>
+<th style="text-align:center">✔本软件:<strong>原生脚本</strong>(Java/Kotlin)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>学习难度</strong></td>
+<td style="text-align:center">低，有图形化界面和简单语法</td>
+<td style="text-align:center">中等，需要掌握 JavaScript</td>
+<td style="text-align:center">高，要掌握完整编程体系</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>平台支持</strong></td>
+<td style="text-align:center">Windows/安卓/ios</td>
+<td style="text-align:center">安卓</td>
+<td style="text-align:center">跨平台（安卓 、Windows、Linux、macOS 等）</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>性能</strong></td>
+<td style="text-align:center">一般</td>
+<td style="text-align:center">中等</td>
+<td style="text-align:center">高</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>复杂功能实现</strong></td>
+<td style="text-align:center">较困难</td>
+<td style="text-align:center">可以实现（依赖 Android API）</td>
+<td style="text-align:center">灵活，能充分利用第三方库</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>代码可维护性</strong></td>
+<td style="text-align:center">低（脚本结构简单）</td>
+<td style="text-align:center">中等</td>
+<td style="text-align:center">高（遵循工程化规范）</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><strong>运行更流畅/安全性极高<br />检测极低/拓展性强</strong></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<h2>自动识别</h2>
+<p>自动识别制造物,无需手动设置是否置顶.</p>
+<img src="/images/05449.png" alt="05449" style="zoom:70%;" />
+</li>
+<li>
+<h2>支持手动</h2>
+<p>支持手动填写制造物品名字软件自动识别制造.</p>
+<img src="/images/26964.png" alt="26964" style="zoom:80%;" />
+<p>图片仅展示部份</p>
+</li>
+<li>
+<h2>避免亏币制造</h2>
+<p>支持从我们的服务器端获取推荐制造物避免亏钱制造!</p>
+<p>(直接获取我们推荐 <strong>因为玩家如果直接手动药品制造可能亏钱</strong>).</p>
+</li>
+<li>
+<h2>定时自动</h2>
+<p>定时自动上线多账号轮询制造与收取.</p>
+<p><img src="/images/17210.png" alt="image-20250721195617210"></p>
+<p>图片仅展示部份</p>
+</li>
+</ol>
+<p><strong>显示基础信息:Q号,游戏ID,总资产,制造倒计时</strong></p>
+<hr>
+<p><strong>遇到问题请优先查看文档/常见问题</strong>,如果文档没有说明/无法解决问题再联系询问.</p>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>反馈对比 - GAuto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-image: url('/images/bg2-1.webp');
+      background-size: cover;
+      background-position: 80% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+    .page-header {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .back-btn {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      background: #2980b9;
+      transform: translateY(-2px);
+    }
+    .page-title {
+      color: #2c3e50;
+      margin: 0;
+      font-size: 2rem;
+    }
+    .markdown-content {
+      background: rgba(255, 255, 255, 0.51);
+      backdrop-filter: blur(10px);
+      padding: 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+      color: #2c3e50;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .markdown-content h1 {
+      font-size: 2.5rem;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+    .markdown-content h2 {
+      font-size: 2rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+    .markdown-content p {
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    .markdown-content ul, .markdown-content ol {
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+    }
+    .markdown-content li {
+      margin-bottom: 0.5rem;
+    }
+    .markdown-content blockquote {
+      border-left: 4px solid #3498db;
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      background: #f8f9fa;
+      color: #555;
+    }
+    .markdown-content code {
+      background: #f1f2f6;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+    }
+    .markdown-content pre {
+      background: #2d3748;
+      color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    .markdown-content pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+    .markdown-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    .markdown-content th, .markdown-content td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    .markdown-content th {
+      background: #f8f9fa;
+      font-weight: 600;
+    }
+    .markdown-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    .markdown-content a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    .markdown-content a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      body { padding: 1rem; }
+      .page-header { flex-direction: column; align-items: flex-start; }
+      .page-title { font-size: 1.5rem; }
+      .markdown-content { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <a href="/" class="back-btn">← 返回主页</a>
+    <h1 class="page-title">反馈对比</h1>
+  </div>
+  <div class="markdown-content">
+    <h1>对比</h1>
+<h4>在三角洲项目圈子里各种各样的项目都见到过,个人愚见总结!若有不到位可以去修改.欢迎指导.</h4>
+<p>对比市面上目前在售脚本:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">市面特勤处脚本</th>
+<th style="text-align:center">市面跑刀脚本</th>
+<th style="text-align:center">GAuto-本软件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">单账号,需要一直挂游戏特勤处界面,设备要求固定分辨率</td>
+<td style="text-align:center">单账号,不停挂游戏运行,需要你一个账号配一个设备(云机20+一台),设备要求固定分辨率</td>
+<td style="text-align:center"><strong>多账号,不用一直在游戏上设备全分辨率</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">需手置顶制造物品,非OCR图色脚本,不会识别物品去制造,可能导致收益少</td>
+<td style="text-align:center">会被行为检测,目前有封号10年,普通封号3天,追缴哈夫币,账号高危</td>
+<td style="text-align:center"><strong>4个多月下边代理工作室100+号,0检测,0封号追缴</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">市面上少</td>
+<td style="text-align:center">市面上较多</td>
+<td style="text-align:center"><strong>目前代理是一级,不去打价格战我们会高定价</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">按键/自动精灵脚本,本身特征会被检测,只是官方检测时间问题</td>
+<td style="text-align:center">按键/自动精灵脚本,本身特征会被检测,只是官方检测时间问题</td>
+<td style="text-align:center"><strong>Kotlin开发,安卓原生稳定性高兼容好</strong></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">门槛低,每天24小时不停跑币产出会比特勤处制造高,但是目前跑刀方式几乎都是云机,所以诞生一个词:授权币:授权币是指游戏资产高,但是此账号仅仅只能在此云机上登录,变现方式只能是撞车或者高危后倒子弹,需要云机授权给别人,<strong>出售变现方式难</strong>,比正常号价格巨低,因为入坑的人太多了…</td>
+<td style="text-align:center"><strong>不断优化功能:低价买入提前屯材料等…</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">脚本单价一般</td>
+<td style="text-align:center">脚本价便宜,几块,甚至几十出所谓’永久卡’…</td>
+<td style="text-align:center"><strong>代理可批激活权限</strong></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">仔细想下按照目前来说:入门门槛低,但是变现不好搞,产出不能确保不封不追缴,号多的人都是浴血奋战…只能靠量,还是那些:<strong>门槛低脚本有风险变现难市面上多数都是赚信息差差价</strong>,官方也不可能不去检测这类跑刀行为检测,时间问题,而且这么多人去做去冲击这个市场…利从哪来</td>
+<td style="text-align:center"><strong>提供工作室搭建经验提供稳定的变现渠道</strong></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">入门门槛云机+脚本,号多的话门槛消费也高,如变现不了直接打水漂,<strong>不适合追求长期稳定的用户去做</strong></td>
+<td style="text-align:center"><strong>哈夫币收益会相对来说低于跑刀,但是能确保最终稳定变现,首月回本后续纯润!(有代理线下工作室案例)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>待补充…</p>
+<p><a href="../together/download.html">联系我们!</a></p>
+<h4><span style="color:red"><strong>账号可以循环使用</strong>租完了拿回来继续挂!</span></h4>
+<p>⚠️<span  style="color:red"><strong>最最最重要的是不追缴不追缴</strong></span>不同于市面上的其他 跑刀脚本,倒子弹脚本,按键精灵,自动精灵Autojs一类 ,根本没一点点风险虽然收益会相对来说低些但是稳定<strong>稳定最后真正实现变现才是王道一旦追缴等于所有投入打水漂了前面多大收益都没用</strong></p>
+
+  </div>
+</body>
+</html>
